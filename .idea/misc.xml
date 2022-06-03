@@ -4,6 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/budilnik/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/activity_experiment.xml" value="0.33" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/activity_task.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/customview_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/fragment_child.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/fragment_home.xml" value="0.12121212121212122" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/fragment_task.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/list2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/layout/task_list.xml" value="0.25" />
+        <entry key="..\:/Users/Intel i3-9100F/AndroidStudioProjects/local_notification/app/src/main/res/menu/popup_menu.xml" value="0.2916666666666667" />
       </map>
     </option>
   </component>

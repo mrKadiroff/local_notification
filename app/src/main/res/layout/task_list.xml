@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/purple_200"
+    android:layout_height="75dp"
+    android:id="@+id/containerer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <TextView
+        android:id="@+id/listName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy a chocolate for charlotte"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="3sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/kalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar"
+        android:layout_marginTop="5sp"
+        android:paddingBottom="22sp"
+        app:layout_constraintTop_toBottomOf="@id/listName"
+        app:layout_constraintStart_toStartOf="@id/listName"/>
+
+    <TextView
+        android:id="@+id/qalandar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Today"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/kalendar"
+        app:layout_constraintStart_toEndOf="@id/kalendar"
+        app:layout_constraintTop_toBottomOf="@id/listName"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <TextView
+        android:id="@+id/vaqt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Today"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/kalendar"
+        app:layout_constraintStart_toEndOf="@id/qalandar"
+        app:layout_constraintTop_toBottomOf="@id/listName"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        app:layout_constraintStart_toStartOf="@id/kalendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
